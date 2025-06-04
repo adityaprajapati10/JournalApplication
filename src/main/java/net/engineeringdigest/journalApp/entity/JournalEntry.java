@@ -12,6 +12,7 @@ import java.util.Objects;
 
 @Document(collection = "journal_entries") // the entity is mapped with mongodb collection
 @Data
+@NoArgsConstructor
 public class JournalEntry {
 
     @Id
