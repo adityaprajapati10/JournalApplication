@@ -1,6 +1,7 @@
 package net.engineeringdigest.journalApp.entity;
 
 
+import lombok.Builder;
 import lombok.Data;
 import lombok.NonNull;
 import org.bson.types.ObjectId;
@@ -15,6 +16,7 @@ import java.util.List;
 
 @Document(collection = "users") // the entity is mapped with mongodb collection
 @Data
+@Builder
 public class User {
 
     @Id
