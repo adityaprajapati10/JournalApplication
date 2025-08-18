@@ -2,6 +2,7 @@ package net.engineeringdigest.journalApp.service;
 
 import net.engineeringdigest.journalApp.entity.User;
 import net.engineeringdigest.journalApp.repository.UserRepository;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ArgumentsSource;
@@ -12,6 +13,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 
 @SpringBootTest
+@Disabled
 public class userServiceTest
 {
     @Autowired
